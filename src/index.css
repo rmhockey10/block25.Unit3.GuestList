@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.guestName {
+  cursor: pointer;
+}
+.guestName:hover {
+  font-weight: bold;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.guests {
+  margin: 1rem;
+}
+
+p {
+  margin: 0.5rem;
+}
