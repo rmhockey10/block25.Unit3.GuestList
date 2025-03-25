@@ -9,7 +9,7 @@ export default function GuestList({ guests, setGuest }) {
       {guests.map((guest) => {
         return (
           <div className="guests" key={guest.id}>
-            <p className="guestName" onClick={() => setGuest(guest)}>
+            <p className="guestName" onClick={() => setGuest(guest.id)}>
               Name: {guest.name}
             </p>
             <p>Email: {guest.email}</p>
